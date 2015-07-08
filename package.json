@@ -1,6 +1,6 @@
 {
-  "name": "os-search",
-  "version": "0.0.1",
+  "name": "osel-search",
+  "version": "0.0.3",
   "description": "AngularJS implementation of a flexible search box by OS Elements",
   "main": "dist/os-search.min.js",
   "directories": {
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "Ordnance Survey",
+    "Ordnance",
     "OS",
     "angularjs",
     "search",
@@ -28,7 +29,19 @@
   "homepage": "https://github.com/OrdnanceSurvey/os-search",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-requirejs": "^0.4.4",
-    "grunt-contrib-watch": "^0.6.1"
-  }
+    "grunt-angular-templates": "^0.5.7",
+    "grunt-concurrent": "^2.0.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-protractor-runner": "^2.0.0",
+    "grunt-timer": "^0.6.0",
+    "jasmine-reporters": "^2.0.7",
+    "protractor": "^2.1.0",
+    "sauce-connect-launcher": "^0.11.1"
+  },
+  "dependencies": {}
 }

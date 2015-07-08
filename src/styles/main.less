@@ -1,0 +1,70 @@
+.border-radius(...) {
+  -webkit-border-radius: @arguments;
+  -moz-border-radius: @arguments;
+  -o-border-radius: @arguments;
+  border-radius: @arguments;
+}
+
+.box-shadow(...) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -o-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+input.osel-search[type=search] {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  .border-radius(0px);
+}
+.osel-search-results {
+  background-color: #ffffff;
+  display: table;
+  padding: 10px;
+  margin-left: 1px;
+  position: absolute;
+  .box-shadow(6px 0 20px 0 rgba(0, 0, 0, 0.19););
+
+  > div {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 150px;
+    max-width: 300px;
+
+    + div {
+      margin-left: 20px;
+    }
+
+  }
+}
+
+.osel-search-result-header {
+  font-weight: 700;
+  border-bottom: 1px solid #3091f6;
+  padding: 5px;
+}
+
+.osel-search-result {
+  padding: 5px;
+
+  &:hover, &:focus {
+    background-color: #3091f6;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+  }
+
+  > p {
+    margin: 0;
+  }
+
+  + .osel-search-result {
+    border-top: 1px dotted #dfdfdf;
+
+    &:hover, &:focus {
+       border-top: 1px solid #3091f6;
+     }
+  }
+
+}

@@ -1,0 +1,54 @@
+input.osel-search[type=search] {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+.osel-search-results {
+  background-color: #ffffff;
+  display: table;
+  padding: 10px;
+  margin-left: 1px;
+  position: absolute;
+  -webkit-box-shadow: 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+  -o-box-shadow: 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+.osel-search-results > div {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 150px;
+  max-width: 300px;
+}
+.osel-search-results > div + div {
+  margin-left: 20px;
+}
+.osel-search-result-header {
+  font-weight: 700;
+  border-bottom: 1px solid #3091f6;
+  padding: 5px;
+}
+.osel-search-result {
+  padding: 5px;
+}
+.osel-search-result:hover,
+.osel-search-result:focus {
+  background-color: #3091f6;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+}
+.osel-search-result > p {
+  margin: 0;
+}
+.osel-search-result + .osel-search-result {
+  border-top: 1px dotted #dfdfdf;
+}
+.osel-search-result + .osel-search-result:hover,
+.osel-search-result + .osel-search-result:focus {
+  border-top: 1px solid #3091f6;
+}
