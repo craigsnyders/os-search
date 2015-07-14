@@ -1,0 +1,9 @@
+---
+ name: demo of something
+ description: Some description, please keep it in one line
+ authors:
+   - Craig Snyders
+ resources:
+   - http://some.url.com/some/file.js
+   - http://other.url.com/other_filename.css
+ normalize_css: no
